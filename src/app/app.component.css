@@ -1,0 +1,256 @@
+section{
+  height: 100vh;
+  display: flex;
+  background-color: beige;
+}
+
+.pai{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background: rgb(255, 255, 255);
+  max-width: 600px;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+}
+
+.filho1{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: rgb(24,9,173);
+  background: linear-gradient(180deg, rgba(24,9,173,1) 0%, rgba(25,9,121,1) 100%);
+
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filho1 h1{
+  margin-top: 24px;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight:inherit;
+  letter-spacing: 1px;
+  font-family: Lato;
+}
+
+.bola{
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  margin-top: 26px;
+  background: rgb(24,9,173);
+  background: linear-gradient(0deg, rgba(24,9,173,1) 0%, rgba(25,9,121,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bola h3{
+  font-size: 65px;
+  color: white;
+  font-family: Lato;
+}
+
+.bola p{
+  letter-spacing: 2px;
+  font-family: Lato;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.textodepoisdabola{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.textodepoisdabola h2{
+  color: white;
+  font-family: Lato;
+  font-weight: bold;
+}
+
+.textodepoisdabola p{
+  max-width: 210px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  font-family: Lato;
+
+}
+
+.filho2 h1{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Lato;
+  color: #323649;
+}
+
+.reaction{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(255, 0, 0, 0.11);
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+.reaction img{
+  margin-left: 10px;
+}
+
+.reaction p:nth-child(2){
+  margin-left: 8px;
+  color: #fd5454;
+  font-family: Lato;
+}
+
+.reaction p:nth-child(3){
+  margin-left: 80px;
+  margin-right: 2px;
+  font-family: Lato;
+}
+
+.reaction p:nth-child(3){
+  font-family: Lato;
+}
+
+.reaction p:nth-child(4){
+  font-family: Lato;
+  color: rgba(50, 54, 73, 0.65);
+}
+
+.memory{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(255, 238, 102, 0.29);
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+.memory img{
+  margin-left: 10px;
+}
+
+.memory p:nth-child(2){
+  margin-left: 8px;
+  color: #f0b133;
+  font-family: Lato;
+}
+
+.memory p:nth-child(3){
+  margin-left: 80px;
+  margin-right: 2px;
+  font-family: Lato;
+}
+
+.memory p:nth-child(4){
+  margin-left: 2px;
+  font-family: Lato;
+  color: rgba(50, 54, 73, 0.65);
+}
+
+.verbal{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(59, 157, 133, 0.22);
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+.verbal img{
+  margin-left: 10px;
+}
+
+.verbal p:nth-child(2){
+  margin-left: 8px;
+  color: #51b39c;
+  font-family: Lato;
+}
+
+.verbal p:nth-child(3){
+  margin-left: 93px;
+  margin-right: 3px;
+  font-family: Lato;
+}
+
+.verbal p:nth-child(4){
+  font-family: Lato;
+  color: rgba(50, 54, 73, 0.65);
+}
+
+.visual{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(37, 46, 137, 0.2);
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+.visual img{
+  margin-left: 10px;
+}
+
+.visual p:nth-child(2){
+  margin-left: 8px;
+  color: #121ea5;
+  font-family: Lato;
+}
+
+.visual p:nth-child(3){
+  margin-left: 93px;
+  margin-right: 3px;
+  font-family: Lato;
+}
+
+.visual p:nth-child(4){
+  font-family: Lato;
+  color: rgba(50, 54, 73, 0.65);
+}
+
+button{
+  border-radius: 50px;
+  width: 250px;
+  padding: 13px;
+  background: rgb(24,9,173);
+  background: linear-gradient(0deg, rgba(24,9,173,1) 0%, rgba(25,9,121,1) 100%);
+  color: white;
+  border:none;
+  font-family: Lato;
+  font-size: 1rem;
+  margin-top: 34px;
+  margin-left: 20px;
+}
+
+button:hover{
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+button{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);   transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
